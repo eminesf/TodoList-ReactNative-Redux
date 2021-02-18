@@ -10,8 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-navigation/native": "^5.9.2",
+    "@reduxjs/toolkit": "^1.5.0",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
