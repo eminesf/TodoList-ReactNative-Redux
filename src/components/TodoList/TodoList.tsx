@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
+import Calculator from '../Calculator/Calculator';
 
 import {
     Container,
@@ -13,6 +14,7 @@ const components: React.FC = () => {
 
 
     return (
+        <>
         <Container>
             
                 <Todos>To do list!</Todos>
@@ -23,6 +25,9 @@ const components: React.FC = () => {
                 <Text>Adicionar</Text>
             </ButtonApp>
         </Container>
+        <Calculator />
+        </>
+
     );
 }
 
